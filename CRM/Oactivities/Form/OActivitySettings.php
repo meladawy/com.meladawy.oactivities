@@ -59,6 +59,7 @@ class CRM_Oactivities_Form_OActivitySettings extends CRM_Admin_Form_Setting {
   }
 
   function setDefaultValues() {
+    $defaults = array() ; 
     $settings_relationship_types =  CRM_Core_BAO_Setting::getItem('Organization Activity Settings', 'oactivity_relationship_types') ;
     $settings_activity_types =  CRM_Core_BAO_Setting::getItem('Organization Activity Settings', 'oactivity_activity_types') ;
 
