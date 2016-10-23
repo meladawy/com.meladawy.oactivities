@@ -1,17 +1,15 @@
 <?xml version="1.0"?>
 <extension key="com.meladawy.oactivities" type="module">
   <file>oactivities</file>
-  <name>FIXME</name>
-  <description>FIXME</description>
+  <name>Organization Activites</name>
+  <description>Display contact activities of specific organization</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Maged Eladawy</author>
     <email>contact@maged.me</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">http://FIXME</url>
-    <url desc="Documentation">http://FIXME</url>
-    <url desc="Support">http://FIXME</url>
+    <url desc="Support">http://www.maged.me</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2016-10-23</releaseDate>
