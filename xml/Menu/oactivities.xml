@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/organization/view/contact/activities</path>
+    <page_callback>CRM_Oactivities_Page_OActivities</page_callback>
+    <title>OActivities</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/admin/setting/oactivity</path>
+    <page_callback>CRM_Oactivities_Form_OActivitySettings</page_callback>
+    <title>Organizations Activity Settings</title>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+</menu>
